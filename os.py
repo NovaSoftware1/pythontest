@@ -1,11 +1,18 @@
+# I used the time.sleep() command to make the code stop for a certain amount of time
+
+
+# I used import to import libraries that add extra functionality
 from datetime import date
 import time
 
+# I used the print() command to display text in the command line
 print("Welcome To Nobara CLI Edition")
 print("This is totally the real version of Nobara Linux")
 
+# I created a variable to initialize the input() function
 command = input("root@thispc: ")
 
+# I used many if statments to tell the code what to do depending on the command entered
 if command == "time":
     t = time.localtime()
     current_time = time.strftime("%H:%M:%S", t)
