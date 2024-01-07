@@ -54,5 +54,12 @@ if command == "game":
     print("You have 100 seconds to restart to choose another command or the program will just end")
     time.sleep(100)
 
+if command == "create_file":
+    text = input("Type Text To Add TO File:")
+    with open('file.txt', 'w') as file:
+        file.write(text)
+
+print("You have 100 seconds to restart to choose another command or the program will just end")
+time.sleep(100)
 
 
